@@ -71,7 +71,7 @@ def staa():
                     global_deaths + '</code>' + '\n' + '🙂 Healed number = ' '<code>'  +
                     global_recovered + '</code>' + '\n' + '\n' + '\n' +
                     '✅ All information is provided by the government and reputable sources' + '\n' +
-                    '~ @sl_bot_zone 🇱🇰 ~')
+                    '~ @tehan_assistant_bot 🇱🇰 ~')
     return textt
 
 
