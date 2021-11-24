@@ -105,7 +105,7 @@ async def corona(event):
 
 @bot.on(events.NewMessage(pattern='/help'))
 async def help(event):
-    await event.respond(Type + '<b>corona</b>' + to view the latest corona news)
+    await event.respond('Type + '<b>corona</b>' + to view the latest corona news')
     raise events.StopPropagation
 
 def main():
