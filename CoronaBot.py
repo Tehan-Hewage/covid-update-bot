@@ -92,6 +92,11 @@ async def start(event):
 async def corona(event):
     await event.respond(staa(),parse_mode='html')
     raise events.StopPropagation
+    
+@bot.on(events.NewMessage(pattern='/corona'))
+async def corona(event):
+    await event.respond(staa(),parse_mode='html')
+    raise events.StopPropagation
 
 @bot.on(events.NewMessage(pattern='/corona {variabla}'))
 async def corona(event):
@@ -100,7 +105,7 @@ async def corona(event):
 
 @bot.on(events.NewMessage(pattern='/help'))
 async def help(event):
-    await event.respond('Use the /corona command to view the latest corona news ')
+    await event.respond("Type 'corona' to view the latest corona news ")
     raise events.StopPropagation
 
 def main():
