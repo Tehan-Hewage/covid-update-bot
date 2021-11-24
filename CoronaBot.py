@@ -88,7 +88,7 @@ async def start(event):
     raise events.StopPropagation
 
 
-@bot.on(events.NewMessage(pattern='/corona'))
+@bot.on(events.NewMessage(pattern='corona'))
 async def corona(event):
     await event.respond(staa(),parse_mode='html')
     raise events.StopPropagation
