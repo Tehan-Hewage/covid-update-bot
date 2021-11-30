@@ -27,11 +27,7 @@ def staat(qq):
                 {
                     "text": " 👨🏼‍💻 Contact Tehan",
                     "url": "https://t.me/tehan_assistant_bot"
-                },
-                {
-                    "text": "🦠 Corona BOT",
-                    "url": "https://t.me/corona87_bot"
-                }              
+                }            
             ]
         ]
     }
